@@ -6,7 +6,7 @@ app.get('/', function(req, res){
   if (typeof(message) == "undefined") {
   	message = "World"
   }
-  res.send('Hey there, ' + message);
+  res.send('Solum demo, ' + message);
 });
 
 /* Use PORT environment variable if it exists */
